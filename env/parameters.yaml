@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:jackalaquamarine/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.staging-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:jackalaquamarine/pipelineUser:token
+  username: cloudbees-ci-cd-staging[bot]
+prow:
+  hmacToken: vault:jackalaquamarine/prow:hmacToken
+segmentWriteKey: vault:jackalaquamarine:segmentWriteKey
